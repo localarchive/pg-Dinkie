@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "com.phonegap.dinkie"
+        version   = "0.0.1">
+
+
+  <name>127001 - Dinkie</name>
+
+  <description>
+    An test with PhoneGap Build.
+  </description>
+
+  <author href="http://www.virtualsciences.nl" email="jarno.de.wit@virtualsciences.nl">
+    Jarno
+    Sjoerd
+  </author>
+
+</widget>
