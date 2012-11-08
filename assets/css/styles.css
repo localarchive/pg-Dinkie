@@ -177,16 +177,36 @@ mark {background-color: #fcd700; color: #000; font-style: italic; font-weight: b
 
 /* The styles */
 header {
-  background-color: #ff00ff;
-  border: 2px dotted lime;
-  font-size: 150%;
+  background-color: #000;
   margin-bottom: 20px;
   padding: 15px;
   text-align: center;
+  color: lime;
+}
+
+header h1 {
+  font-size: 1.5em;
+  margin-bottom: 0.2em;
 }
 
 article {
   text-align: center;
+}
+
+article p {
+  color:black;
+  background-color: silver;
+  transition:all 1s ease;
+  width: 2em;
+  height: 2em;
+  border-radius: 1em;
+}
+
+article p:target {
+  color:red;
+  margin-left: 50%;
+  margin-top: 50%;
+  background-color: red;
 }
 
 .button {
